@@ -560,8 +560,8 @@ function PricingSection({ onJoinClick }: { onJoinClick: (planName: string) => vo
             <Reveal key={plan.id} delay={i * 0.1}>
               <div
                 className={`relative flex flex-col h-full rounded-2xl p-7 transition-all duration-300 hover:-translate-y-2 ${plan.highlight
-                    ? "bg-[#141414] border-2 border-[#d4ff00]"
-                    : "bg-[#141414] border border-white/5 hover:border-white/15"
+                  ? "bg-[#141414] border-2 border-[#d4ff00]"
+                  : "bg-[#141414] border border-white/5 hover:border-white/15"
                   }`}
               >
                 {/* Highlight badge */}
@@ -604,8 +604,8 @@ function PricingSection({ onJoinClick }: { onJoinClick: (planName: string) => vo
                 <button
                   onClick={() => onJoinClick(plan.name)}
                   className={`flex items-center justify-center gap-2 font-bold text-sm uppercase tracking-widest py-3.5 rounded-full transition-all hover:scale-[1.03] w-full cursor-pointer ${plan.highlight
-                      ? "bg-[#d4ff00] text-black hover:bg-[#bcff00]"
-                      : "bg-white/5 hover:bg-white/10 border border-white/10 text-white"
+                    ? "bg-[#d4ff00] text-black hover:bg-[#bcff00]"
+                    : "bg-white/5 hover:bg-white/10 border border-white/10 text-white"
                     }`}
                 >
                   <MessageCircle size={14} />
@@ -1186,7 +1186,7 @@ function LocationSection() {
                     </div>
                   </a>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/warriors.gym.crb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     target="_blank" rel="noopener noreferrer"
                     className="group flex items-center gap-3 bg-[#141414] border border-white/5 hover:border-[#d4ff00]/30 rounded-2xl p-4 transition-all"
                   >
